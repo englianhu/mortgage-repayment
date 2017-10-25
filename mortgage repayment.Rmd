@@ -1,0 +1,130 @@
+---
+title: "<img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg' width='840'>"
+subtitle: "[<span style='color:blue'>Mortgage Repayment</span>](https://github.com/englianhu/mortgage-repayment)"
+author: "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='24'>白戸則道®"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html:
+    toc: yes
+    toc_depth: 4
+    self_contained: no
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+link-citations: yes
+---
+
+```{r setup}
+#'@ rm(list = ls(all = TRUE))
+
+suppressPackageStartupMessages(library('BBmisc'))
+pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'stringr', 'TFX', 'quantmod', 
+'QuantTools', 'rugarch', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst')
+
+#'@ funs <- c('plotChart2.R')
+#'@ 
+suppressAll(lib(pkgs))
+#'@ l_ply(paste0('./function/', funs), source)
+
+## Set option to below if you want to plot an independent webpage with graph 
+#'@ op <- options(gvis.plot.tag=NULL)
+op <- options(gvis.plot.tag = 'chart')
+options(gvis.plot.tag = 'chart', warn = -1)
+
+rm(pkgs)
+```
+
+# 1. Introduction
+
+  High frequency trading is an automated trading platform used by large investment banks, hedge funds and institutional investors which utilizes powerful computers to transact a large number of orders at extremely high speeds. These high frequency trading platforms allow traders to execute millions of orders and scan multiple markets and exchanges in a matter of seconds, thus giving the institutions that use the platforms a huge advantage in the open market.
+
+  Read more: [What is high-frequency trading?](http://www.investopedia.com/ask/answers/09/high-frequency-trading.asp#ixzz4wVO6j7e4)
+
+  By refer to *Ryo Eng Lian Hu (2017)*^[reference paper 1], I tried to model few Kelly funds for financial trading. Today I am zooming on the Kellys fund.
+
+# 2. Data
+
+```{r read-data}
+```
+
+```{r arrange-data}
+
+```
+
+# 3. Model Comparison
+
+  Here we plot a graph for high volume data points.
+
+  - [Question: R Plotting Line Graph With Large Dataset](https://www.biostars.org/p/47288/)
+  - [More efficient plot functions in R when millions of points are present?](https://stats.stackexchange.com/questions/7348/more-efficient-plot-functions-in-r-when-millions-of-points-are-present?answertab=votes#tab-top)
+  - [Visualizing Big Data with R](https://beta.rstudioconnect.com/jmcphers/datavis-talk/datavis.html)
+
+```{r graph-Hi}
+```
+
+```{r}
+```
+
+```{r graph-Lo}
+```
+
+```{r graph-Cl}
+```
+
+
+# 4. Conclusion
+
+
+```{r stopPar, echo = FALSE}
+## Set options back to original options
+options(op)
+options(warn = 0)
+```
+
+# 5. Appendix
+
+## 5.1 Documenting File Creation 
+
+  It's useful to record some information about how your file was created.
+
+  - File creation date: 2017-10-25
+  - File latest updated date: `r Sys.Date()`
+  - `r R.version.string`
+  - R version (short form): `r getRversion()`
+  - [<span style='color:blue'>**rmarkdown** package</span>](https://github.com/rstudio/rmarkdown) version: `r packageVersion('rmarkdown')`
+  - [<span style='color:blue'>**tufte** package</span>](https://github.com/rstudio/tufte) version: `r packageVersion('tufte')`
+  - File version: 1.0.1
+  - Author Profile: [<span style='color:blue'>®γσ, Eng Lian Hu</span>](https://beta.rstudioconnect.com/englianhu/ryo-eng/)
+  - GitHub: [<span style='color:blue'>Source Code</span>](https://github.com/englianhu/binary.com-interview-question)
+  - Additional session information
+  
+```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
+suppressMessages(require('dplyr', quietly = TRUE))
+suppressMessages(require('formattable', quietly = TRUE))
+
+lubridate::now()
+sys1 <- devtools::session_info()$platform %>% unlist %>% data.frame(Category = names(.), session_info = .)
+rownames(sys1) <- NULL
+sys1 %>% formattable %>% as.htmlwidget
+
+data.frame(Sys.info()) %>% mutate(Category = rownames(.)) %>% .[2:1] %>% rename(Category = Category, Sys.info =  Sys.info..) %>% formattable %>% as.htmlwidget
+
+rm(sys1)
+```
+
+## 5.2 Reference
+
+  01. [<span style='color:blue'>A simple amortization function</span>](https://www.r-bloggers.com/a-simple-amortization-function/)
+  02. [<span style='color:blue'>Level payment loan functions in R</span>](https://rpubs.com/kpolen/16816)
+  03. [<span style='color:blue'>Mortgage Calculator (and Amortization Charts) with R</span>](http://www.r-chart.com/2010/11/mortgage-calculator-and-amortization.html)
+  04. [<span style='color:blue'></span>]()
+  05. [<span style='color:blue'></span>]()
+  06. [<span style='color:blue'></span>]()
+  07. [<span style='color:blue'></span>]()
+  08. [<span style='color:blue'></span>]()
+  09. [<span style='color:blue'></span>]()
+
+**Powered by - Copyright® Intellectual Property Rights of <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/oda-army2.jpg?raw=true' width='24'> [<span style='color:blue'>Scibrokes®</span>](http://www.scibrokes.com)個人の経営企業**
