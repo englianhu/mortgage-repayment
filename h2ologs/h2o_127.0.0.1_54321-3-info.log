@@ -1,0 +1,440 @@
+10-26 11:32:29.380 127.0.0.1:54321       #8936  #r thread INFO: ----- H2O started  -----
+10-26 11:32:29.407 127.0.0.1:54321       #8936  #r thread INFO: Build git branch: rel-tverberg
+10-26 11:32:29.407 127.0.0.1:54321       #8936  #r thread INFO: Build git hash: cb4e1d8f5265e8d66c1e88bec133e38f2732c58b
+10-26 11:32:29.407 127.0.0.1:54321       #8936  #r thread INFO: Build git describe: jenkins-rel-tverberg-2
+10-26 11:32:29.407 127.0.0.1:54321       #8936  #r thread INFO: Build project version: 3.10.3.2 (latest version: 3.14.0.7)
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Build age: 8 months and 25 days
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Built by: 'jenkins'
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Built on: '2017-01-31 12:30:22'
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: 
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.14.0.7 from http://h2o.ai/download/ ***
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: 
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-scibr_246708450, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 127.0.0.1, -log_dir, C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs]
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Java availableProcessors: 4
+10-26 11:32:29.408 127.0.0.1:54321       #8936  #r thread INFO: Java heap totalMemory: 613.5 MB
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Java heap maxMemory: 910.5 MB
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: JVM launch parameters: [-Xmx1g]
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Machine physical memory: 15.89 GB
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: X-h2o-cluster-id: 1508985146147
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: User name: 'scibr'
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Opted out of sending usage metrics.
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: IPv6 stack selected: false
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net0 (Microsoft ISATAP Adapter #2)
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net1 (Microsoft ISATAP Adapter #3)
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth0 (WAN Miniport (IPv6))
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net2 (WAN Miniport (L2TP))
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), 2001:0:4137:9e76:3c71:15a7:3f57:fef1
+10-26 11:32:29.409 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:3c71:15a7:3f57:fef1%net4
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan0 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Hosted Network Virtual Adapter #2)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan2 (300Mbps Wireless High Power USB Adapter #2)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net5 (WAN Miniport (IKEv2))
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth1 (Microsoft Kernel Debug Network Adapter)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan4 (Microsoft Wi-Fi Direct Virtual Adapter #4)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth2 (SAMSUNG Mobile USB Remote NDIS Network Device)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net6 (Microsoft ISATAP Adapter #4)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net7 (WAN Miniport (SSTP))
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth3 (WAN Miniport (IP))
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:net8 (Microsoft ISATAP Adapter)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 192.168.1.14
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:601b:2d89:6cf3:2bf8
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:601b:2d89:6cf3:2bf8
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:a5c3:1ffc:71d5:886
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:a5c3:1ffc:71d5:886
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fe80:0:0:0:601b:2d89:6cf3:2bf8%eth4
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth6 (Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth7 (Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000)
+10-26 11:32:29.410 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:eth8 (Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan5 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan6 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Virtual WiFi Filter Driver-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan7 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Native WiFi Filter Driver-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan8 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-QoS Packet Scheduler-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan9 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan12 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan13 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan14 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan15 (Microsoft Wi-Fi Direct Virtual Adapter #4-Native WiFi Filter Driver-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan16 (Microsoft Wi-Fi Direct Virtual Adapter #4-QoS Packet Scheduler-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Network interface is down: name:wlan17 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Internal communication uses port: 54322
+10-26 11:32:29.411 127.0.0.1:54321       #8936  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+10-26 11:32:29.588 127.0.0.1:54321       #8936  #r thread INFO: H2O cloud name: 'sparkling-water-scibr_246708450' on /127.0.0.1:54321, discovery address /239.227.222.222:61411
+10-26 11:32:29.589 127.0.0.1:54321       #8936  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-26 11:32:29.589 127.0.0.1:54321       #8936  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 scibr@127.0.0.1'
+10-26 11:32:29.589 127.0.0.1:54321       #8936  #r thread INFO:   2. Point your browser to http://localhost:55555
+10-26 11:32:29.589 127.0.0.1:54321       #8936  #r thread INFO: Log dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs'
+10-26 11:32:29.589 127.0.0.1:54321       #8936  #r thread INFO: Cur dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment'
+10-26 11:32:29.609 127.0.0.1:54321       #8936  #r thread INFO: Using HDFS configuration from C:/Users/scibr/AppData/Local/spark/spark-2.1.0-bin-hadoop2.7/tmp/hadoop/conf
+10-26 11:32:29.609 127.0.0.1:54321       #8936  #r thread INFO: HDFS subsystem successfully initialized
+10-26 11:32:29.625 127.0.0.1:54321       #8936  #r thread INFO: S3 subsystem successfully initialized
+10-26 11:32:29.625 127.0.0.1:54321       #8936  #r thread INFO: Flow dir: 'C:/Users/scibr/h2oflows'
+10-26 11:32:29.640 127.0.0.1:54321       #8936  #r thread INFO: Cloud of size 1 formed [127.0.0.1/127.0.0.1:54321]
+10-26 11:32:29.656 127.0.0.1:54321       #8936  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+10-26 11:32:29.656 127.0.0.1:54321       #8936  #r thread INFO: Registered 0 extensions in: 475mS
+10-26 11:32:30.317 127.0.0.1:54321       #8936  #r thread INFO: Registered: 146 REST APIs in: 661mS
+10-26 11:32:30.317 127.0.0.1:54321       #8936  #r thread INFO: 
+10-26 11:32:30.317 127.0.0.1:54321       #8936  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+10-26 11:32:30.318 127.0.0.1:54321       #8936  #r thread INFO: 
+10-26 11:32:44.393 127.0.0.1:54321       #8936  #roup-2-2 INFO: Registered: 222 schemas in 1838ms
+10-26 11:32:44.576 127.0.0.1:54321       #8936  #5367-249 INFO: GET /, parms: {}
+10-26 11:32:44.725 127.0.0.1:54321       #8936  #5367-248 INFO: GET /, parms: {}
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@73112287
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: Resource not found: /3/Capabilities/API
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: 
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: 
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: ERROR MESSAGE:
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: 
+10-26 11:32:45.126 127.0.0.1:54321       #8936  #5367-246 WARN: Resource /3/Capabilities/API not found
+10-26 11:33:06.533 127.0.0.1:54321       #8936  #5367-245 INFO: GET /, parms: {}
+10-26 11:33:06.579 127.0.0.1:54321       #8936  #5367-243 INFO: GET /, parms: {}
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@73112287
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: Resource not found: /3/Capabilities/API
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: 
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: 
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: ERROR MESSAGE:
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: 
+10-26 11:33:06.617 127.0.0.1:54321       #8936  #5367-249 WARN: Resource /3/Capabilities/API not found
+10-26 11:33:18.518 127.0.0.1:54321       #8936  #5367-248 INFO: GET /, parms: {}
+10-26 11:33:18.523 127.0.0.1:54321       #8936  #5367-247 INFO: GET /, parms: {}
+10-26 11:33:18.545 127.0.0.1:54321       #8936  #5367-245 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:33:18.545 127.0.0.1:54321       #8936  #5367-245 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:33:18.546 127.0.0.1:54321       #8936  #5367-245 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@73112287
+10-26 11:33:18.547 127.0.0.1:54321       #8936  #5367-245 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:33:18.547 127.0.0.1:54321       #8936  #5367-245 WARN: Resource not found: /3/Capabilities/API
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 WARN: 
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 WARN: 
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 WARN: ERROR MESSAGE:
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 WARN: 
+10-26 11:33:18.548 127.0.0.1:54321       #8936  #5367-245 WARN: Resource /3/Capabilities/API not found
+10-26 11:37:44.901 127.0.0.1:54321       #4232  #r thread INFO: ----- H2O started  -----
+10-26 11:37:44.912 127.0.0.1:54321       #4232  #r thread INFO: Build git branch: rel-tverberg
+10-26 11:37:44.912 127.0.0.1:54321       #4232  #r thread INFO: Build git hash: cb4e1d8f5265e8d66c1e88bec133e38f2732c58b
+10-26 11:37:44.912 127.0.0.1:54321       #4232  #r thread INFO: Build git describe: jenkins-rel-tverberg-2
+10-26 11:37:44.912 127.0.0.1:54321       #4232  #r thread INFO: Build project version: 3.10.3.2 (latest version: 3.14.0.7)
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Build age: 8 months and 25 days
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Built by: 'jenkins'
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Built on: '2017-01-31 12:30:22'
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: 
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.14.0.7 from http://h2o.ai/download/ ***
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: 
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-scibr_1934800255, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 127.0.0.1, -log_dir, C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs]
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Java availableProcessors: 4
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Java heap totalMemory: 692.5 MB
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Java heap maxMemory: 910.5 MB
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: JVM launch parameters: [-Xmx1g]
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Machine physical memory: 15.89 GB
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: X-h2o-cluster-id: 1508985462458
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: User name: 'scibr'
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Opted out of sending usage metrics.
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: IPv6 stack selected: false
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net0 (Microsoft ISATAP Adapter #2)
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net1 (Microsoft ISATAP Adapter #3)
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth0 (WAN Miniport (IPv6))
+10-26 11:37:44.913 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net2 (WAN Miniport (L2TP))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), 2001:0:4137:9e76:3c71:15a7:3f57:fef1
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:3c71:15a7:3f57:fef1%net4
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan0 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Hosted Network Virtual Adapter #2)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan2 (300Mbps Wireless High Power USB Adapter #2)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net5 (WAN Miniport (IKEv2))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth1 (Microsoft Kernel Debug Network Adapter)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan4 (Microsoft Wi-Fi Direct Virtual Adapter #4)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth2 (SAMSUNG Mobile USB Remote NDIS Network Device)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net6 (Microsoft ISATAP Adapter #4)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net7 (WAN Miniport (SSTP))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth3 (WAN Miniport (IP))
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:net8 (Microsoft ISATAP Adapter)
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 192.168.1.14
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:601b:2d89:6cf3:2bf8
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:601b:2d89:6cf3:2bf8
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:a5c3:1ffc:71d5:886
+10-26 11:37:44.914 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:a5c3:1ffc:71d5:886
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fe80:0:0:0:601b:2d89:6cf3:2bf8%eth4
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth6 (Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth7 (Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:eth8 (Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan5 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan6 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Virtual WiFi Filter Driver-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan7 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Native WiFi Filter Driver-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan8 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-QoS Packet Scheduler-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan9 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan12 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan13 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan14 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan15 (Microsoft Wi-Fi Direct Virtual Adapter #4-Native WiFi Filter Driver-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan16 (Microsoft Wi-Fi Direct Virtual Adapter #4-QoS Packet Scheduler-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Network interface is down: name:wlan17 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Internal communication uses port: 54322
+10-26 11:37:44.915 127.0.0.1:54321       #4232  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO: H2O cloud name: 'sparkling-water-scibr_1934800255' on /127.0.0.1:54321, discovery address /237.130.171.105:60802
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 scibr@127.0.0.1'
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO:   2. Point your browser to http://localhost:55555
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO: Log dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs'
+10-26 11:37:45.074 127.0.0.1:54321       #4232  #r thread INFO: Cur dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment'
+10-26 11:37:45.084 127.0.0.1:54321       #4232  #r thread INFO: Using HDFS configuration from C:/Users/scibr/AppData/Local/spark/spark-2.1.0-bin-hadoop2.7/tmp/hadoop/conf
+10-26 11:37:45.084 127.0.0.1:54321       #4232  #r thread INFO: HDFS subsystem successfully initialized
+10-26 11:37:45.094 127.0.0.1:54321       #4232  #r thread INFO: S3 subsystem successfully initialized
+10-26 11:37:45.094 127.0.0.1:54321       #4232  #r thread INFO: Flow dir: 'C:/Users/scibr/h2oflows'
+10-26 11:37:45.112 127.0.0.1:54321       #4232  #r thread INFO: Cloud of size 1 formed [127.0.0.1/127.0.0.1:54321]
+10-26 11:37:45.147 127.0.0.1:54321       #4232  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+10-26 11:37:45.148 127.0.0.1:54321       #4232  #r thread INFO: Registered 0 extensions in: 662mS
+10-26 11:37:45.680 127.0.0.1:54321       #4232  #r thread INFO: Registered: 146 REST APIs in: 532mS
+10-26 11:37:45.681 127.0.0.1:54321       #4232  #r thread INFO: 
+10-26 11:37:45.681 127.0.0.1:54321       #4232  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+10-26 11:37:45.681 127.0.0.1:54321       #4232  #r thread INFO: 
+10-26 11:37:53.265 127.0.0.1:54321       #4232  #roup-2-2 INFO: Registered: 222 schemas in 719ms
+10-26 11:37:53.356 127.0.0.1:54321       #4232  #8858-243 INFO: GET /, parms: {}
+10-26 11:37:53.370 127.0.0.1:54321       #4232  #8858-244 INFO: GET /, parms: {}
+10-26 11:37:53.462 127.0.0.1:54321       #4232  #8858-246 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:37:53.462 127.0.0.1:54321       #4232  #8858-246 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:37:53.463 127.0.0.1:54321       #4232  #8858-246 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@3591f177
+10-26 11:37:53.464 127.0.0.1:54321       #4232  #8858-246 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:37:53.464 127.0.0.1:54321       #4232  #8858-246 WARN: Resource not found: /3/Capabilities/API
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 WARN: 
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 WARN: 
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 WARN: ERROR MESSAGE:
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 WARN: 
+10-26 11:37:53.466 127.0.0.1:54321       #4232  #8858-246 WARN: Resource /3/Capabilities/API not found
+10-26 11:38:05.849 127.0.0.1:54321       #4232  #8858-247 INFO: GET /, parms: {}
+10-26 11:38:05.864 127.0.0.1:54321       #4232  #8858-248 INFO: GET /, parms: {}
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@3591f177
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: Resource not found: /3/Capabilities/API
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: 
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: 
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: ERROR MESSAGE:
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: 
+10-26 11:38:05.896 127.0.0.1:54321       #4232  #8858-243 WARN: Resource /3/Capabilities/API not found
+10-26 11:38:17.617 127.0.0.1:54321       #4232  #8858-244 INFO: GET /, parms: {}
+10-26 11:38:17.626 127.0.0.1:54321       #4232  #8858-245 INFO: GET /, parms: {}
+10-26 11:38:17.652 127.0.0.1:54321       #4232  #8858-247 INFO: GET /3/Capabilities/API, parms: {}
+10-26 11:38:17.652 127.0.0.1:54321       #4232  #8858-247 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 11:38:17.654 127.0.0.1:54321       #4232  #8858-247 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@3591f177
+10-26 11:38:17.655 127.0.0.1:54321       #4232  #8858-247 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 11:38:17.655 127.0.0.1:54321       #4232  #8858-247 WARN: Resource not found: /3/Capabilities/API
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 WARN: 
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 WARN: 
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 WARN: ERROR MESSAGE:
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 WARN: 
+10-26 11:38:17.656 127.0.0.1:54321       #4232  #8858-247 WARN: Resource /3/Capabilities/API not found

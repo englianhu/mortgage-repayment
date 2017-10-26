@@ -1,84 +1,107 @@
 ---
-title: "<img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg' width='840'>"
-subtitle: "[<span style='color:blue'>Mortgage Repayment</span>](https://github.com/englianhu/mortgage-repayment)"
-author: "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='24'>白戸則道®"
+title: <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg'
+  width='840'>
+author:  "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='16'>白戸則道®"
 date: "`r Sys.Date()`"
 output:
-  tufte::tufte_html:
+  html_notebook:
     toc: yes
     toc_depth: 4
-    self_contained: no
-  tufte::tufte_book:
-    citation_package: natbib
-    latex_engine: xelatex
-  tufte::tufte_handout:
-    citation_package: natbib
-    latex_engine: xelatex
-link-citations: yes
+subtitle: '[credit scoring](https://github.com/englianhu/mortgage-repayment)'
 ---
 
 ```{r setup}
 #'@ rm(list = ls(all = TRUE))
 
 suppressPackageStartupMessages(library('BBmisc'))
-pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'stringr', 'TFX', 'quantmod', 
-'QuantTools', 'rugarch', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst')
+pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'purrr', 'sparklyr', 'rsparkling', 'h2o', 'stringr', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst')
 
-#'@ funs <- c('plotChart2.R')
-#'@ 
 suppressAll(lib(pkgs))
-#'@ l_ply(paste0('./function/', funs), source)
 
 ## Set option to below if you want to plot an independent webpage with graph 
 #'@ op <- options(gvis.plot.tag=NULL)
 op <- options(gvis.plot.tag = 'chart')
-options(gvis.plot.tag = 'chart', warn = -1)
+options(warn = -1)
+options(rsparkling.sparklingwater.version = '2.1.0')
+
+#'@ spark_install(version = '2.1.0')
+sc <- spark_connect(master = 'local', version = '2.1.0')
 
 rm(pkgs)
 ```
 
 # 1. Introduction
 
-  High frequency trading is an automated trading platform used by large investment banks, hedge funds and institutional investors which utilizes powerful computers to transact a large number of orders at extremely high speeds. These high frequency trading platforms allow traders to execute millions of orders and scan multiple markets and exchanges in a matter of seconds, thus giving the institutions that use the platforms a huge advantage in the open market.
+  Initially, I would like to write a `shiny app`^[similar with my previous project in [Coursera Data Science Capstone](https://github.com/englianhu/Coursera-Data-Science-Capstone) which search from dictionary and display the predicted risk.] for the dictionary and user data search engine, but due to I saw the file size of the dataset will cause a heavily loading, then I forget about `shiny app` and started write this html web page.
 
-  Read more: [What is high-frequency trading?](http://www.investopedia.com/ask/answers/09/high-frequency-trading.asp#ixzz4wVO6j7e4)
+  Basically, this paper analyse the **bank risk and loan quality**. This is an assessment for joinning a company named **Money Lion** as a data scientist.
 
-  By refer to *Ryo Eng Lian Hu (2017)*^[reference paper 1], I tried to model few Kelly funds for financial trading. Today I am zooming on the Kellys fund.
+<center><iframe src="https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/ML_DataScientist_assessment.pdf" width="600" height="900"></iframe></center>
 
 # 2. Data
 
+  Due to the high volume data, here I use `data.table::fread` to speed up the reading time.
+
 ```{r read-data}
+## Read `loan.csv`
+loan <- fread('./data/loan.csv') %>% tbl_df %>% mutate(applicationDate = str_replace_all(applicationDate, 'T', ' ') %>% ymd_hms, originatedDate = str_replace_all(originatedDate, 'T', ' ') %>% ymd_hms) %>% mutate_if(is.character, funs(factor))
+
+## Read `payment.csv`
+payment <- fread('./data/payment.csv') %>% tbl_df %>% mutate(paymentDate = str_replace_all(paymentDate, 'T', ' ') %>% ymd_hms) %>% mutate_if(is.character, funs(factor))
+
+## Read `clarity_underwriting_variables.csv`
+cuv <- fread('./data/clarity_underwriting_variables.csv') %>% tbl_df %>% mutate_if(is.character, funs(factor))
 ```
+
+  Here I try to merge both datasets `loan` and `payment` and .
 
 ```{r arrange-data}
-
+loan_payment <- plyr::join(payment, loan, by = 'loanId') %>% tbl_df
 ```
 
-# 3. Model Comparison
+**Sparklyr**
 
-  Here we plot a graph for high volume data points.
+  Besides, I try to using `sparklyr`^[You can refer to [Sparklyr: Using Spark with R Markdown](https://www.rstudio.com/resources/webinars/using-spark-with-shiny-and-r-markdown/) for more information.] for high volume data modelling due to it only spend few seconds time to model and predict moreover compare among models.
 
-  - [Question: R Plotting Line Graph With Large Dataset](https://www.biostars.org/p/47288/)
-  - [More efficient plot functions in R when millions of points are present?](https://stats.stackexchange.com/questions/7348/more-efficient-plot-functions-in-r-when-millions-of-points-are-present?answertab=votes#tab-top)
-  - [Visualizing Big Data with R](https://beta.rstudioconnect.com/jmcphers/datavis-talk/datavis.html)
-
-```{r graph-Hi}
+```{r spark-data}
+## copy data to spark
+loan_tbl <- copy_to(sc, loan, 'loan')
+payment_tbl <-  copy_to(sc, payment, 'payment')
+cuv_tbl <-  copy_to(sc, cuv, 'cuv')
+loan_payment <- copy_to(sc, loan_payment, 'loan_payment')
 ```
 
-```{r}
-```
+# 3. Modelling
 
-```{r graph-Lo}
-```
+  For the 
 
-```{r graph-Cl}
+```{r modelling}
+h2o.init()
+
+loan_h2o <- as_h2o_frame(sc, loan_tbl, strict_version_check = FALSE)
+
+payment_h2o <- as_h2o_frame(sc, payment_tbl, strict_version_check = FALSE)
+
+cuv_h2o <- as_h2o_frame(sc, cuv_tbl, strict_version_check = FALSE)
+
+loan_glm <- h2o.glm(x = c('wt', 'cyl'), y = "mpg", 
+                    training_frame = mtcars_h2o, 
+                    lambda_search = TRUE)
 ```
 
 
 # 4. Conclusion
 
+  I'll .
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bQR620Bij_Q" frameborder="0" allowfullscreen></iframe>
+
+  [Credit Risk Modeling in R - DataCamp](https://www.datacamp.com/courses/introduction-to-credit-risk-modeling-in-r)
 
 ```{r stopPar, echo = FALSE}
+## Disconnect spark
+spark_disconnect(sc)
+
 ## Set options back to original options
 options(op)
 options(warn = 0)
@@ -94,11 +117,11 @@ options(warn = 0)
   - File latest updated date: `r Sys.Date()`
   - `r R.version.string`
   - R version (short form): `r getRversion()`
-  - [<span style='color:blue'>**rmarkdown** package</span>](https://github.com/rstudio/rmarkdown) version: `r packageVersion('rmarkdown')`
-  - [<span style='color:blue'>**tufte** package</span>](https://github.com/rstudio/tufte) version: `r packageVersion('tufte')`
+  - [**rmarkdown** package](https://github.com/rstudio/rmarkdown) version: `r packageVersion('rmarkdown')`
+  - [**tufte** package](https://github.com/rstudio/tufte) version: `r packageVersion('tufte')`
   - File version: 1.0.1
-  - Author Profile: [<span style='color:blue'>®γσ, Eng Lian Hu</span>](https://beta.rstudioconnect.com/englianhu/ryo-eng/)
-  - GitHub: [<span style='color:blue'>Source Code</span>](https://github.com/englianhu/binary.com-interview-question)
+  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/englianhu/ryo-eng/)
+  - GitHub: [Source Code](https://github.com/englianhu/binary.com-interview-question)
   - Additional session information
   
 ```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
@@ -117,14 +140,14 @@ rm(sys1)
 
 ## 5.2 Reference
 
-  01. [<span style='color:blue'>A simple amortization function</span>](https://www.r-bloggers.com/a-simple-amortization-function/)
-  02. [<span style='color:blue'>Level payment loan functions in R</span>](https://rpubs.com/kpolen/16816)
-  03. [<span style='color:blue'>Mortgage Calculator (and Amortization Charts) with R</span>](http://www.r-chart.com/2010/11/mortgage-calculator-and-amortization.html)
-  04. [<span style='color:blue'></span>]()
-  05. [<span style='color:blue'></span>]()
-  06. [<span style='color:blue'></span>]()
-  07. [<span style='color:blue'></span>]()
-  08. [<span style='color:blue'></span>]()
-  09. [<span style='color:blue'></span>]()
+  01. [A simple amortization function](https://www.r-bloggers.com/a-simple-amortization-function/)
+  02. [Level payment loan functions in R](https://rpubs.com/kpolen/16816)
+  03. [Mortgage Calculator (and Amortization Charts) with R](http://www.r-chart.com/2010/11/mortgage-calculator-and-amortization.html)
+  04. [r package : `tvm`](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/tvm.pdf)
+  05. [r package : `optiRum`](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/optiRum.pdf)
+  06. [Guide to Credit Scoring in R](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/Guide%20to%20Credit%20Scoring%20in%20R.pdf)
+  07. [The `lifecontingencies` Package - Performing Financial and Actuarial Mathematics Calculations in R](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/The%20lifecontingencies%20Package%20-%20Performing%20Financial%20and%20Actuarial%20Mathematics%20Calculations%20in%20R.pdf)
+  08. []()
+  09. []()
 
-**Powered by - Copyright® Intellectual Property Rights of <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/oda-army2.jpg?raw=true' width='24'> [<span style='color:blue'>Scibrokes®</span>](http://www.scibrokes.com)個人の経営企業**
+**Powered by - Copyright® Intellectual Property Rights of <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/oda-army2.jpg?raw=true' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
