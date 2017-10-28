@@ -1,6 +1,6 @@
 # Loan Risk and Quality
 
-  Basically, the credit scoring is the risk modelling and rating onto the mortgage repayment.
+  Basically, the credit scoring is the risk modelling and rating onto the mortgage repayment. Here I use logistic regression for modelling to find the best fit model.
 
 # Reference
 

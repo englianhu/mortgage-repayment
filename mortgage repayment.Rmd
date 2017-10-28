@@ -1,9 +1,12 @@
 ---
-title: <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg'
-  width='840'>
-author:  "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='16'>白戸則道®"
+title: "<img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg' width='840'>"
+author: "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='24'>白戸則道®"
 date: "`r Sys.Date()`"
 output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: '4'
   html_notebook:
     toc: yes
     toc_depth: 4
@@ -14,7 +17,7 @@ subtitle: '[credit scoring](https://github.com/englianhu/mortgage-repayment)'
 #'@ rm(list = ls(all = TRUE))
 
 suppressPackageStartupMessages(library('BBmisc'))
-pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'purrr', 'broom', 'sparklyr', 'rsparkling', 'h2o', 'stringr', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst')
+pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'purrr', 'broom', 'sparklyr', 'rsparkling', 'h2o', 'stringr', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst', 'googleVis')
 
 suppressAll(lib(pkgs))
 
@@ -72,6 +75,38 @@ loan_payment <- plyr::join(payment, loan, by = 'loanId') %>% tbl_df %>% mutate(p
 #'@ cuv_tbl <-  copy_to(sc, cuv, 'cuv')
 #'@ loan_payment_tbl <- copy_to(sc, loan_payment, 'loan_payment')
 ```
+
+**Data Visualization**
+
+  The pie chart below shows the portion loan status of customers.
+
+```{r graph-1}
+hchart(as.character(loan$loanStatus), type = 'pie')
+```
+
+*graph 2.1 : loan status*
+
+  Well, below chart shows the occupation of payment status onto the approved loan.
+
+```{r graph-2}
+hchart(as.character(loan_payment$paymentStatus), type = 'pie')
+```
+
+*graph 2.2 : payment status*
+
+```{r graph-3}
+hchart(loan$loanAmount)
+```
+
+*graph 2.3 : loan amount*
+
+  Below histogram shows the installment index, which is the term of installment.
+
+```{r graph-4}
+hchart(payment$installmentIndex)
+```
+
+*graph 2.4 : installment term*
 
 # 3. Modelling
 
