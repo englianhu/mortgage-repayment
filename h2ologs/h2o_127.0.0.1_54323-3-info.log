@@ -1,0 +1,269 @@
+10-26 13:51:22.903 127.0.0.1:54323       #9956  #r thread INFO: ----- H2O started  -----
+10-26 13:51:22.920 127.0.0.1:54323       #9956  #r thread INFO: Build git branch: rel-tverberg
+10-26 13:51:22.920 127.0.0.1:54323       #9956  #r thread INFO: Build git hash: cb4e1d8f5265e8d66c1e88bec133e38f2732c58b
+10-26 13:51:22.920 127.0.0.1:54323       #9956  #r thread INFO: Build git describe: jenkins-rel-tverberg-2
+10-26 13:51:22.920 127.0.0.1:54323       #9956  #r thread INFO: Build project version: 3.10.3.2 (latest version: 3.14.0.7)
+10-26 13:51:22.920 127.0.0.1:54323       #9956  #r thread INFO: Build age: 8 months and 26 days
+10-26 13:51:23.250 127.0.0.1:54323       #9956  #r thread INFO: Built by: 'jenkins'
+10-26 13:51:23.250 127.0.0.1:54323       #9956  #r thread INFO: Built on: '2017-01-31 12:30:22'
+10-26 13:51:23.250 127.0.0.1:54323       #9956  #r thread INFO: 
+10-26 13:51:23.250 127.0.0.1:54323       #9956  #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.14.0.7 from http://h2o.ai/download/ ***
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: 
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-scibr_1831219355, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 127.0.0.1, -log_dir, C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs]
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Java availableProcessors: 4
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Java heap totalMemory: 828.5 MB
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Java heap maxMemory: 910.5 MB
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: JVM launch parameters: [-Xmx1g]
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Machine physical memory: 15.89 GB
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: X-h2o-cluster-id: 1508993480040
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: User name: 'scibr'
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Opted out of sending usage metrics.
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: IPv6 stack selected: false
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net0 (Microsoft ISATAP Adapter #2)
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net1 (Microsoft ISATAP Adapter #3)
+10-26 13:51:23.252 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth0 (WAN Miniport (IPv6))
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net2 (WAN Miniport (L2TP))
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), 2001:0:4137:9e76:3c71:15a7:3f57:fef1
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:3c71:15a7:3f57:fef1%net4
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan0 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter)
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Hosted Network Virtual Adapter #2)
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan2 (300Mbps Wireless High Power USB Adapter #2)
+10-26 13:51:23.253 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net5 (WAN Miniport (IKEv2))
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth1 (Microsoft Kernel Debug Network Adapter)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan4 (Microsoft Wi-Fi Direct Virtual Adapter #4)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth2 (SAMSUNG Mobile USB Remote NDIS Network Device)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net6 (Microsoft ISATAP Adapter #4)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net7 (WAN Miniport (SSTP))
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth3 (WAN Miniport (IP))
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:net8 (Microsoft ISATAP Adapter)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 192.168.1.14
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:601b:2d89:6cf3:2bf8
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:601b:2d89:6cf3:2bf8
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:a5c3:1ffc:71d5:886
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:a5c3:1ffc:71d5:886
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fe80:0:0:0:601b:2d89:6cf3:2bf8%eth4
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth6 (Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth7 (Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:eth8 (Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan5 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.254 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan6 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Virtual WiFi Filter Driver-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan7 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Native WiFi Filter Driver-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan8 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-QoS Packet Scheduler-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan9 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan12 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan13 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan14 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan15 (Microsoft Wi-Fi Direct Virtual Adapter #4-Native WiFi Filter Driver-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan16 (Microsoft Wi-Fi Direct Virtual Adapter #4-QoS Packet Scheduler-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Network interface is down: name:wlan17 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Internal communication uses port: 54324
+10-26 13:51:23.255 127.0.0.1:54323       #9956  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54323/
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO: H2O cloud name: 'sparkling-water-scibr_1831219355' on /127.0.0.1:54323, discovery address /229.96.169.132:58720
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54323 scibr@127.0.0.1'
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO:   2. Point your browser to http://localhost:55555
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO: Log dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs'
+10-26 13:51:23.446 127.0.0.1:54323       #9956  #r thread INFO: Cur dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment'
+10-26 13:51:23.457 127.0.0.1:54323       #9956  #r thread INFO: Using HDFS configuration from C:/Users/scibr/AppData/Local/spark/spark-2.1.0-bin-hadoop2.7/tmp/hadoop/conf
+10-26 13:51:23.457 127.0.0.1:54323       #9956  #r thread INFO: HDFS subsystem successfully initialized
+10-26 13:51:23.467 127.0.0.1:54323       #9956  #r thread INFO: S3 subsystem successfully initialized
+10-26 13:51:23.467 127.0.0.1:54323       #9956  #r thread INFO: Flow dir: 'C:/Users/scibr/h2oflows'
+10-26 13:51:23.485 127.0.0.1:54323       #9956  #r thread INFO: Cloud of size 1 formed [127.0.0.1/127.0.0.1:54323]
+10-26 13:51:23.509 127.0.0.1:54323       #9956  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+10-26 13:51:23.509 127.0.0.1:54323       #9956  #r thread INFO: Registered 0 extensions in: 942mS
+10-26 13:51:24.452 127.0.0.1:54323       #9956  #r thread INFO: Registered: 146 REST APIs in: 943mS
+10-26 13:51:24.452 127.0.0.1:54323       #9956  #r thread INFO: 
+10-26 13:51:24.452 127.0.0.1:54323       #9956  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54323
+10-26 13:51:24.452 127.0.0.1:54323       #9956  #r thread INFO: 
+10-26 13:51:35.604 127.0.0.1:54323       #9956  #roup-2-2 INFO: Registered: 222 schemas in 761ms
+10-26 13:51:35.717 127.0.0.1:54323       #9956  #5517-252 INFO: GET /, parms: {}
+10-26 13:51:35.733 127.0.0.1:54323       #9956  #5517-251 INFO: GET /, parms: {}
+10-26 13:51:35.832 127.0.0.1:54323       #9956  #5517-255 INFO: GET /3/Capabilities/API, parms: {}
+10-26 13:51:35.833 127.0.0.1:54323       #9956  #5517-255 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 13:51:35.833 127.0.0.1:54323       #9956  #5517-255 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@21890be2
+10-26 13:51:35.834 127.0.0.1:54323       #9956  #5517-255 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 13:51:35.835 127.0.0.1:54323       #9956  #5517-255 WARN: Resource not found: /3/Capabilities/API
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 13:51:35.900 127.0.0.1:54323       #9956  #5517-255 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 13:51:35.958 127.0.0.1:54323       #9956  #5517-255 WARN: 
+10-26 13:51:35.958 127.0.0.1:54323       #9956  #5517-255 WARN: 
+10-26 13:51:35.958 127.0.0.1:54323       #9956  #5517-255 WARN: ERROR MESSAGE:
+10-26 13:51:35.958 127.0.0.1:54323       #9956  #5517-255 WARN: 
+10-26 13:51:35.958 127.0.0.1:54323       #9956  #5517-255 WARN: Resource /3/Capabilities/API not found
+10-26 21:28:58.904 127.0.0.1:54323       13412  #r thread INFO: ----- H2O started  -----
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Build git branch: rel-tverberg
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Build git hash: cb4e1d8f5265e8d66c1e88bec133e38f2732c58b
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Build git describe: jenkins-rel-tverberg-2
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Build project version: 3.10.3.2 (latest version: 3.14.0.7)
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Build age: 8 months and 26 days
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Built by: 'jenkins'
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: Built on: '2017-01-31 12:30:22'
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: 
+10-26 21:28:58.952 127.0.0.1:54323       13412  #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.14.0.7 from http://h2o.ai/download/ ***
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: 
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-scibr_731444172, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 127.0.0.1, -log_dir, C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs]
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Java availableProcessors: 4
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Java heap totalMemory: 692.0 MB
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Java heap maxMemory: 910.5 MB
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: JVM launch parameters: [-Xmx1g]
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Machine physical memory: 15.89 GB
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: X-h2o-cluster-id: 1509020935644
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: User name: 'scibr'
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: Opted out of sending usage metrics.
+10-26 21:28:58.953 127.0.0.1:54323       13412  #r thread INFO: IPv6 stack selected: false
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net0 (Microsoft ISATAP Adapter #2)
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net1 (Microsoft ISATAP Adapter #3)
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth0 (WAN Miniport (IPv6))
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net2 (WAN Miniport (L2TP))
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), 2001:0:4137:9e76:87d:2cbf:3f57:fef1
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: net4 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:87d:2cbf:3f57:fef1%net4
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan0 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter)
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Hosted Network Virtual Adapter #2)
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan2 (300Mbps Wireless High Power USB Adapter #2)
+10-26 21:28:58.954 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net5 (WAN Miniport (IKEv2))
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth1 (Microsoft Kernel Debug Network Adapter)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan3 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan4 (Microsoft Wi-Fi Direct Virtual Adapter #4)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth2 (SAMSUNG Mobile USB Remote NDIS Network Device)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net6 (Microsoft ISATAP Adapter #4)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net7 (WAN Miniport (SSTP))
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth3 (WAN Miniport (IP))
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:net8 (Microsoft ISATAP Adapter)
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 192.168.1.14
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:601b:2d89:6cf3:2bf8
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:601b:2d89:6cf3:2bf8
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), 2001:e68:4425:4286:b927:b3bf:e437:25af
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fc01:0:0:0:b927:b3bf:e437:25af
+10-26 21:28:58.955 127.0.0.1:54323       13412  #r thread INFO: Possible IP Address: eth4 (Realtek PCIe GBE Family Controller), fe80:0:0:0:601b:2d89:6cf3:2bf8%eth4
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth6 (Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth7 (Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:eth8 (Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan5 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan6 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Virtual WiFi Filter Driver-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan7 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-Native WiFi Filter Driver-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan8 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-QoS Packet Scheduler-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan9 (Broadcom BCM943228HMB 802.11abgn 2x2 Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-26 21:28:58.956 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan12 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan13 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan14 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP Native MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan15 (Microsoft Wi-Fi Direct Virtual Adapter #4-Native WiFi Filter Driver-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan16 (Microsoft Wi-Fi Direct Virtual Adapter #4-QoS Packet Scheduler-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Network interface is down: name:wlan17 (Microsoft Wi-Fi Direct Virtual Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Internal communication uses port: 54324
+10-26 21:28:58.957 127.0.0.1:54323       13412  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54323/
+10-26 21:28:59.135 127.0.0.1:54323       13412  #r thread INFO: H2O cloud name: 'sparkling-water-scibr_731444172' on /127.0.0.1:54323, discovery address /238.241.172.103:61169
+10-26 21:28:59.136 127.0.0.1:54323       13412  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-26 21:28:59.136 127.0.0.1:54323       13412  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54323 scibr@127.0.0.1'
+10-26 21:28:59.136 127.0.0.1:54323       13412  #r thread INFO:   2. Point your browser to http://localhost:55555
+10-26 21:28:59.136 127.0.0.1:54323       13412  #r thread INFO: Log dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\h2ologs'
+10-26 21:28:59.136 127.0.0.1:54323       13412  #r thread INFO: Cur dir: 'C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment'
+10-26 21:28:59.146 127.0.0.1:54323       13412  #r thread INFO: Using HDFS configuration from C:/Users/scibr/AppData/Local/spark/spark-2.1.0-bin-hadoop2.7/tmp/hadoop/conf
+10-26 21:28:59.147 127.0.0.1:54323       13412  #r thread INFO: HDFS subsystem successfully initialized
+10-26 21:28:59.157 127.0.0.1:54323       13412  #r thread INFO: S3 subsystem successfully initialized
+10-26 21:28:59.157 127.0.0.1:54323       13412  #r thread INFO: Flow dir: 'C:/Users/scibr/h2oflows'
+10-26 21:28:59.174 127.0.0.1:54323       13412  #r thread INFO: Cloud of size 1 formed [127.0.0.1/127.0.0.1:54323]
+10-26 21:28:59.200 127.0.0.1:54323       13412  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+10-26 21:28:59.201 127.0.0.1:54323       13412  #r thread INFO: Registered 0 extensions in: 1197mS
+10-26 21:28:59.697 127.0.0.1:54323       13412  #r thread INFO: Registered: 146 REST APIs in: 496mS
+10-26 21:28:59.697 127.0.0.1:54323       13412  #r thread INFO: 
+10-26 21:28:59.697 127.0.0.1:54323       13412  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54323
+10-26 21:28:59.697 127.0.0.1:54323       13412  #r thread INFO: 
+10-26 21:29:13.018 127.0.0.1:54323       13412  #roup-2-2 INFO: Registered: 222 schemas in 1647ms
+10-26 21:29:13.536 127.0.0.1:54323       13412  #5103-245 INFO: GET /, parms: {}
+10-26 21:29:13.606 127.0.0.1:54323       13412  #5103-244 INFO: GET /, parms: {}
+10-26 21:29:13.705 127.0.0.1:54323       13412  #5103-248 INFO: GET /3/Capabilities/API, parms: {}
+10-26 21:29:13.705 127.0.0.1:54323       13412  #5103-248 INFO: Trying to load resource /3/Capabilities/API via classloader sun.misc.Launcher$AppClassLoader@deb6432
+10-26 21:29:13.706 127.0.0.1:54323       13412  #5103-248 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@30b64a9e
+10-26 21:29:13.708 127.0.0.1:54323       13412  #5103-248 INFO: Trying to load resource /3/Capabilities/API via classloader org.apache.spark.util.MutableURLClassLoader@17a1e4ca
+10-26 21:29:13.709 127.0.0.1:54323       13412  #5103-248 WARN: Resource not found: /3/Capabilities/API
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: water.exceptions.H2ONotFoundArgumentException: Resource /3/Capabilities/API not found
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at water.api.RequestServer.response404(RequestServer.java:625)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at water.api.RequestServer.getResource(RequestServer.java:840)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:424)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:280)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:215)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+10-26 21:29:13.754 127.0.0.1:54323       13412  #5103-248 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+10-26 21:29:13.970 127.0.0.1:54323       13412  #5103-248 WARN: 
+10-26 21:29:13.970 127.0.0.1:54323       13412  #5103-248 WARN: 
+10-26 21:29:13.970 127.0.0.1:54323       13412  #5103-248 WARN: ERROR MESSAGE:
+10-26 21:29:13.970 127.0.0.1:54323       13412  #5103-248 WARN: 
+10-26 21:29:13.970 127.0.0.1:54323       13412  #5103-248 WARN: Resource /3/Capabilities/API not found
+10-26 21:32:42.779 127.0.0.1:54323       13412  #5103-249 INFO: HEAD /, parms: {}
+10-26 21:32:42.796 127.0.0.1:54323       13412  #5103-246 INFO: GET /, parms: {}
+10-26 21:32:42.804 127.0.0.1:54323       13412  #5103-250 INFO: POST /3/Shutdown, parms: {}
+10-26 21:32:42.804 127.0.0.1:54323       13412  #5103-250 INFO: Locking cloud to new members, because water.api.schemas3.ShutdownV3
+10-26 21:32:44.812 127.0.0.1:54323       13412  #read-188 INFO: Orderly shutdown:  Shutting down now.

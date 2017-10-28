@@ -2,8 +2,6 @@
 
   Basically, the credit scoring is the risk modelling and rating onto the mortgage repayment.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bQR620Bij_Q" frameborder="0" allowfullscreen></iframe>
-
 # Reference
 
   01. [Guide to Credit Scoring in R](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/Guide%20to%20Credit%20Scoring%20in%20R.pdf)

@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Thu Oct 26 12:40:14 JST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015f-56c4-2054-00000ee3f530 
-on database directory memory:C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\databaseName=metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@266e8250 
+Thu Oct 26 21:25:55 JST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015f-58a5-63bc-0000043f7710 
+on database directory memory:C:\Users\scibr\Documents\GitHub\englianhu\mortgage-repayment\databaseName=metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@c01857f 
 Loaded from file:/C:/Users/scibr/AppData/Local/spark/spark-2.1.0-bin-hadoop2.7/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_144-b01
