@@ -1,0 +1,128 @@
+---
+title: "<img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/mortgage.jpg' width='840'>"
+author: "[<span style='color:blue'>®γσ, Lian Hu</span>](https://englianhu.github.io/) <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/ENG.jpg' width='24'> <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/RYO.jpg?raw=true' width='24'>白戸則道®"
+date: "`r Sys.Date()`"
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: 4
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: '4'
+subtitle: '[credit scoring II](https://github.com/englianhu/mortgage-repayment)'
+---
+
+```{r setup}
+#'@ rm(list = ls(all = TRUE))
+
+suppressPackageStartupMessages(library('BBmisc'))
+pkgs <- c('knitr', 'kableExtra', 'tint', 'devtools', 'lubridate', 'data.table', 'quantmod', 'shiny', 'R.utils', 'memoise', 'magrittr', 'plyr', 'dplyr', 'purrr', 'broom', 'sparklyr', 'rsparkling', 'h2o', 'stringr', 'tidyverse', 'htmltools', 'highcharter', 'googleVis', 'formattable', 'DT', 'fst', 'googleVis')
+
+suppressAll(lib(pkgs))
+
+## Set option to below if you want to plot an independent webpage with graph 
+#'@ op <- options(gvis.plot.tag=NULL)
+op <- options(gvis.plot.tag = 'chart')
+options(warn = -1)
+#'@ options(rsparkling.sparklingwater.version = '2.2.0')
+
+#'@ spark_install(version = '2.2.0')
+#'@ sc <- spark_connect(master = 'local', version = '2.2.0')
+
+rm(pkgs)
+```
+
+# 1. Introduction
+
+  Below are some courses to credit risk management.
+  
+  - 1.1 [An Introduction to Credit Risk Management](https://mooc.guokr.com/course/1087/An-Introduction-to-Credit-Risk-Management/)
+  - 1.2 
+
+## 1.1 An Introduction to Credit Risk Management
+
+### 1.1.1 Defining Credit Risk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SMMSuPzf9Ic" frameborder="0" allowfullscreen></iframe>
+
+### 1.1.2 The Basel Accords: Basel II
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bnpvFpdp3O8" frameborder="0" allowfullscreen></iframe>
+
+### 1.1.3 The Basel Accords: Basel III
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gearqoDjmuk" frameborder="0" allowfullscreen></iframe>
+
+**Summary**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yGezW27sXA" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wPrfmsUdedw" frameborder="0" allowfullscreen></iframe>
+
+### 1.1.4 
+
+### 1.1.5 
+
+### 1.1.6 
+
+### 1.1.7 
+
+
+
+# 2. Data
+
+# 3. Statistical Modelling
+
+# 4. Conclusion
+
+```{r stopPar, echo = FALSE}
+## Disconnect spark
+#'@ spark_disconnect(sc)
+
+## Set options back to original options
+options(op)
+options(warn = 0)
+```
+
+# 5. Appendix
+
+## 5.1 Documenting File Creation 
+
+  It's useful to record some information about how your file was created.
+
+  - File creation date: 2017-11-02
+  - File latest updated date: `r Sys.Date()`
+  - `r R.version.string`
+  - R version (short form): `r getRversion()`
+  - [**rmarkdown** package](https://github.com/rstudio/rmarkdown) version: `r packageVersion('rmarkdown')`
+  - File version: 1.0.1
+  - Author Profile: [®γσ, Eng Lian Hu](https://beta.rstudioconnect.com/content/3091/ryo-eng.html)
+  - GitHub: [Source Code](https://github.com/englianhu/mortgage-repayment)
+  - Additional session information
+  
+```{r info, echo = FALSE, warning = FALSE, results = 'asis'}
+suppressMessages(require('dplyr', quietly = TRUE))
+suppressMessages(require('formattable', quietly = TRUE))
+
+lubridate::now()
+sys1 <- devtools::session_info()$platform %>% unlist %>% data.frame(Category = names(.), session_info = .)
+rownames(sys1) <- NULL
+sys1 %>% formattable %>% as.htmlwidget
+
+data.frame(Sys.info()) %>% mutate(Category = rownames(.)) %>% .[2:1] %>% rename(Category = Category, Sys.info =  Sys.info..) %>% formattable %>% as.htmlwidget
+
+rm(sys1)
+```
+
+## 5.2 Reference
+
+  01. [A simple amortization function](https://www.r-bloggers.com/a-simple-amortization-function/)
+  02. [Level payment loan functions in R](https://rpubs.com/kpolen/16816)
+  03. [Mortgage Calculator (and Amortization Charts) with R](http://www.r-chart.com/2010/11/mortgage-calculator-and-amortization.html)
+  04. [r package : `tvm`](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/tvm.pdf)
+  05. [r package : `optiRum`](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/optiRum.pdf)
+  06. [Guide to Credit Scoring in R](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/Guide%20to%20Credit%20Scoring%20in%20R.pdf)
+  07. [The `lifecontingencies` Package - Performing Financial and Actuarial Mathematics Calculations in R](https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/reference/The%20lifecontingencies%20Package%20-%20Performing%20Financial%20and%20Actuarial%20Mathematics%20Calculations%20in%20R.pdf)
+
+**Powered by - Copyright® Intellectual Property Rights of <img src='https://raw.githubusercontent.com/englianhu/mortgage-repayment/master/www/oda-army2.jpg?raw=true' width='24'> [Scibrokes®](http://www.scibrokes.com)個人の経営企業**
